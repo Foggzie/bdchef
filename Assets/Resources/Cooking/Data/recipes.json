@@ -1,0 +1,11 @@
+{
+    "Name": "Vinegar",
+    "IconName": "568",
+    "SkillLevel": "Beginner",
+    "Items": [
+        "Sugar",
+        "LeaveningAgent",
+        "Fruit",
+        "Grain"
+    ]
+}
