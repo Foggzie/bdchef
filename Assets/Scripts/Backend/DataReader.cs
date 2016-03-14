@@ -6,7 +6,9 @@ namespace BDChef
 	{
 		public static Book ReadBook(string itemFile, string recipeFile)
 		{
-			return null;
+			// READ IN DATA
+
+			Book ofTheKing = new Book(null, null);
 		}
 	}
 }
