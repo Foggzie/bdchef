@@ -1,16 +1,14 @@
-{
-    "items": {
-        "Egg": {
-            "Name": "Egg",
-            "IconName": "568",
-            "Info": "Acquired by workers on chicken farms.",
-            "Source": "Gathered"
-        },
-        "Milk": {
-            "Name": "Milk",
-            "IconName": "568",
-            "Info": "Gathered from cows on farms.",
-            "Source": "Gathered"
-        }
+[
+    {
+        "Name": "Egg",
+        "IconName": "568",
+        "Info": "Acquired by workers on chicken farms.",
+        "Source": "Gathered"
+    },
+    {
+        "Name": "Milk",
+        "IconName": "568",
+        "Info": "Gathered from cows on farms.",
+        "Source": "Gathered"
     }
-}
+]
