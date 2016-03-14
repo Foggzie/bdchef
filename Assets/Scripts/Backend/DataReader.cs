@@ -16,7 +16,9 @@ namespace BDChef
 			var recipeText = Resources.Load(recipeFile) as TextAsset;
 			Utils.NullAsset(recipeText, "Couldn't load resource: " + recipeFile);
 
-			return new Book(Parse<Item>(itemText), Parse<Recipe>(recipeText));
+			return new Book(
+				Parse<Item>(itemText.text),
+				Parse<Recipe>(recipeText.text));
 		}
 
 		private static List<T> Parse<T>(string stringData)
