@@ -6,14 +6,14 @@ using UnityEngine;
 
 namespace BDChef
 {
-	public static class DataReader
+	public static class BookReader
 	{
 		public static Book ReadBook(string itemFile, string recipeFile)
 		{
-			var itemText = Resources.Load(itemFile) as TextAsset;
+			TextAsset itemText = (TextAsset)Resources.Load(itemFile, typeof(TextAsset));
 			Utils.NullAsset(itemText, "Couldn't load resource: " + itemFile);
 
-			var recipeText = Resources.Load(recipeFile) as TextAsset;
+			TextAsset recipeText = (TextAsset)Resources.Load(recipeFile, typeof(TextAsset));
 			Utils.NullAsset(recipeText, "Couldn't load resource: " + recipeFile);
 
 			return new Book(
