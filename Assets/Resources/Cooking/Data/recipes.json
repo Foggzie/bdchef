@@ -1,9 +1,8 @@
 [
 	{
-	    "Name": "Vinegar",
-	    "IconName": "568",
+	    "Output": "Vinegar",
 	    "SkillLevel": "Beginner",
-	    "Items": [
+	    "Input": [
 	        "Sugar",
 	        "LeaveningAgent",
 	        "Fruit",

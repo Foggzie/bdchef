@@ -2,15 +2,17 @@
 
 namespace BDChef
 {
-	public class Recipe : Item
+	public class Recipe
 	{
+		public List<string> Input { get; private set; }
+
+		public string OutPut { get; private set; }
+
 		public SkillLevel Level { get; private set; }
 
 		public Recipe()
 		{
-			Source = ItemSource.Prepared;
+			
 		}
-
-		private Dictionary<Item, int> m_items = new Dictionary<Item, int>();
 	}
 }

@@ -1,0 +1,7 @@
+- View recipes:
+	- All
+	- By Effect
+	- By Difficulty
+
+- What can I make with what I have?
+	- Select items
